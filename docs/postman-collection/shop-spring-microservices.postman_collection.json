@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "c0c95657-2f83-456b-accf-8dfdd73b378d",
+		"name": "shop-spring-microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12480337"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "shared",
+					"item": [
+						{
+							"name": "health-check",
+							"item": [
+								{
+									"name": "bounded-context",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{base-url}}/{{user-context-name}}/health-check/bounded-context",
+											"host": [
+												"{{base-url}}"
+											],
+											"path": [
+												"{{user-context-name}}",
+												"health-check",
+												"bounded-context"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
