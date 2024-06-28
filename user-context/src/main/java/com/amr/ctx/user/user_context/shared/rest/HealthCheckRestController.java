@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class HealthCheckRestController {
 
     @GetMapping("/health-check/bounded-context")
