@@ -43,7 +43,7 @@ class HealthCheckRestControllerTest {
         expectedStatus.put("status", "ok");
         ObjectMapper objectMapper = new ObjectMapper();
         String expectedStatusJson = objectMapper.writeValueAsString(expectedStatus);
-        String url = "/users/health-check/bounded-context";
+        String url = "/api/users/health-check/bounded-context";
         MockHttpServletResponse response = mockMvc.perform(get(url).accept(MediaType.APPLICATION_JSON))
                                                   .andExpect(status().isOk())
                                                   .andReturn()

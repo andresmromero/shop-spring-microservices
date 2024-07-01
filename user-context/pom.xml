@@ -55,6 +55,14 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.amr.comm.infr</groupId>
+			<artifactId>common-infrastructure</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.amr.comm.bsns</groupId>
+			<artifactId>common-business</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>

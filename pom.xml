@@ -20,6 +20,8 @@
         <module>user-context</module>
         <module>discovery-server</module>
         <module>api-gateway</module>
+        <module>common-business</module>
+        <module>common-infrastructure</module>
     </modules>
 
     <properties>
@@ -39,6 +41,16 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.amr.comm.infr</groupId>
+                <artifactId>common-infrastructure</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.amr.comm.bsns</groupId>
+                <artifactId>common-business</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

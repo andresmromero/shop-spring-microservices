@@ -21,11 +21,12 @@
 										"method": "GET",
 										"header": [],
 										"url": {
-											"raw": "{{base-url}}/{{user-context-name}}/health-check/bounded-context",
+											"raw": "{{base-url}}/{{api-reference}}/{{user-context-name}}/health-check/bounded-context",
 											"host": [
 												"{{base-url}}"
 											],
 											"path": [
+												"{{api-reference}}",
 												"{{user-context-name}}",
 												"health-check",
 												"bounded-context"
